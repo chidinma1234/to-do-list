@@ -233,6 +233,7 @@ Grocery List
   font-size: 1rem;
   flex: 1 0 auto;
   color: var(--clr-grey-5);
+  outline: 0;
 }
 #grocery::placeholder {
   font-family: var(--ff-secondary);
@@ -279,7 +280,7 @@ Grocery List
 }
 .grocery-item:hover {
   color: var(--clr-grey-5);
-  background: var(--clr-grey-10);
+  background: var(--clr-grey-8);
 }
 .grocery-item:hover .title {
   color: var(--clr-grey-5);
